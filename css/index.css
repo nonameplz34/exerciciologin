@@ -1,0 +1,90 @@
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, rgb(222, 111, 250) 0%, rgb(87, 255, 255) 100%);
+    display: flex;
+    padding: 2% 10%;
+    gap: 10%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.textos {
+    width: 90%;
+    color: white;
+}
+
+.textos :nth-of-type(1) {
+    font-weight: 700;
+    font-size: 210%;
+    text-transform: uppercase;
+    padding-bottom: 5%;
+}
+
+.textos :nth-of-type(2) {
+    font-size: 155%;
+}
+
+.caixa {
+    display: flex;
+    padding: 2.5%;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+    background-color: #fff;
+    justify-content: space-around;
+    height: 100%;
+}
+
+input {
+    height: 8%;
+    border-radius: 5px;
+    border: solid 2%;
+    font-size: 1rem;
+}
+
+input[id=text] {
+    height: 25%;
+}
+
+input::placeholder {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.boto {
+    border: none;
+    font-size: 150%;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    text-align-last: center;
+    background-color: #3BCC87;
+    height: 10%;
+}
+.boto:hover {
+    border: solid 2px black;
+}
+
+
+  label {
+     display: none; 
+}  
+
+.bordaRed {
+    border: solid #fd4c4c 2px;
+    display: block;
+}
+
+.bordagreen {
+    border: solid #6cff5f 2px;
+    display: block;
+}
+.fontered {
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+}
+
